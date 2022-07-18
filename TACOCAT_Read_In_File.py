@@ -11,10 +11,10 @@ data_logic = 1
 Fuel_Type = "U_Zr10"
 
 #Provide chemical composition of coolant. Coolant types include: NaK, FLiBe, FLiNaK, NaF_ZrF4
-Coolant = "NaK"
+Coolant = "NaF_ZrF4"
 
-#Provide reactor geometry. Geometry types include: 
-Geometry = ""
+#Provide reactor geometry. Geometry types include: Hexagonal, Square
+Geometry = "Hexagonal"
 
 Hc = 0.35 #Active Height of Core is 2m
 Qth = 3*10**6 #Core Thermal Production - W
